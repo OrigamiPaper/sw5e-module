@@ -23,6 +23,7 @@ If you wish to manually install the system, you must clone or extract it into th
 
 ### Fixed
 
+- Powercasting Bars on Character Sheet.
 - Classes now have additional labels within their details to specify Powercasting and Maneuver progression.
 - Equipments and Weapons now have specific configuration labels for their special Properties.
 
