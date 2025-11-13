@@ -15,6 +15,12 @@ If you wish to manually install the system, you must clone or extract it into th
 
 ## Changelog
 
+### [1.2.7] - 2025-11-13
+
+### Fixed
+
+- Enhanced property on Weapons and Equipment.
+
 ### [1.2.6] - 2025-10-31
 
 ### Added

@@ -9,26 +9,31 @@ function addHelper() {
 	};
 }
 
+const capitalize = text => text.charAt(0).toUpperCase() + text.slice(1);
 function patchSheet() {
 	Hooks.on("renderItemSheet5e", (app, html, data) => {
 		if (app.item.type !== "weapon" && app.item.type !== "equipment") return;
 		const tabDetails = html.querySelectorAll('.tab.details')[0];
 		const fieldset = tabDetails.firstElementChild;
-		const wpDiv = fieldset.lastElementChild;
-		const wpLabel = wpDiv.firstElementChild;
+		const wpDiv = Array.from(fieldset.querySelectorAll('div')).find(div => {
+			const label = div.querySelector('label');
+			const itemTypeName = capitalize(app.item.type);
+			return label && label.textContent.trim() === `${itemTypeName} Properties`;
+		});
+		const wpLabel = wpDiv.firstElementChild.cloneNode(true);
 
 		const properties = new Set(data.properties.options.map(p=>p.value));
 		const numericProperties = new Set([...properties].filter(key => CONFIG.DND5E.itemProperties[key]?.type === "Number"));
 		const boolProperties = properties.difference(numericProperties);
 		const itemProperties = app.item.system.properties;
 
-		const boolNode = document.createElement("div");
+		wpDiv.innerHTML = "";
 		{
-			boolNode.setAttribute("class", `form-group stacked checkbox-grid`);
-			boolNode.appendChild(wpDiv.firstElementChild.cloneNode(true));
+			wpDiv.setAttribute("class", `form-group stacked checkbox-grid`);
+			wpDiv.appendChild(wpLabel);
 			const formFields = document.createElement("div");
 			formFields.setAttribute("class", `form-fields`);
-			boolNode.appendChild(formFields);
+			wpDiv.appendChild(formFields);
 			for (const prop of boolProperties) {
 				const config = CONFIG.DND5E.itemProperties[prop];
 				const path = `system.properties.${prop}`;
@@ -90,9 +95,7 @@ function patchSheet() {
 			}
 		}
 
-		fieldset.insertBefore(boolNode, wpDiv);
-		fieldset.insertBefore(numericNode, wpDiv);
-		wpDiv.remove();
+		wpDiv.insertAdjacentElement("afterend", numericNode);
 	});
 }
 
