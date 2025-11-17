@@ -661,6 +661,14 @@ export function patchConfig(config, strict = true) {
 		preLocalize(`featureTypes.${key}.subtypes`, { sort: true });
 	}
 	// Properties
+	// Preserve some useful itemProperties elements
+	let concentration_icon = config.itemProperties.concentration.icon;
+	console.warn(concentration_icon);
+	let enhanced_icon = config.itemProperties.mgc.icon;
+	console.warn(enhanced_icon);
+	let ritual_icon = config.itemProperties.ritual.icon;
+	console.warn(ritual_icon);
+
 	if (strict) config.itemProperties = {};
 	config.itemProperties = {
 		...config.itemProperties,
@@ -1101,7 +1109,7 @@ export function patchConfig(config, strict = true) {
 		concentration: {
 			label: "SW5E.Item.Property.Concentration",
 			abbreviation: "DND5E.ConcentrationAbbr",
-			icon: "systems/dnd5e/icons/svg/statuses/concentrating.svg",
+			icon: concentration_icon,
 			reference: "Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.ow58p27ctAnr4VPH",
 			isTag: true
 		},
@@ -1123,7 +1131,7 @@ export function patchConfig(config, strict = true) {
 			full: "SW5E.Item.Property.EnhancedFull",
 			type: "Boolean",
 			reference: "SW5E.Item.Property.EnhancedDesc",
-			icon: "systems/dnd5e/icons/svg/properties/magical.svg",
+			icon: enhanced_icon,
 			isPhysical: true
 		},
 		ritual: {
@@ -1131,7 +1139,7 @@ export function patchConfig(config, strict = true) {
 			full: "SW5E.Item.Property.Ritual",
 			type: "Boolean",
 			abbreviation: "SW5E.RitualAbbr",
-			icon: "systems/dnd5e/icons/svg/items/magical.svg",
+			icon: ritual_icon,
 			isTag: true
 		},
 		somatic: {
@@ -1645,35 +1653,36 @@ export function patchConfig(config, strict = true) {
 		conversion: 1
 	};
 	// Damage
-	if (strict) {
-		delete config.damageTypes.bludgeoning;
-		delete config.damageTypes.slashing;
-		delete config.damageTypes.piercing;
-		delete config.damageTypes.radiant;
-	}
 	// config.damageTypes.force.reference = ""; // TODO
 	// config.damageTypes.thunder.reference = ""; // TODO
 	config.damageTypes = {
 		...config.damageTypes,
 		energy: {
 			label: "SW5E.DamageEnergy",
-			icon: "systems/dnd5e/icons/svg/damage/radiant.svg",
+			icon: config.damageTypes.radiant.icon,
 			// reference: "", // TODO
 			color: new Color(0x800080),
 		},
 		ion: {
 			label: "SW5E.DamageIon",
-			icon: "systems/dnd5e/icons/svg/damage/slashing.svg",
+			// TODO: possibly use custom svg
+			icon: config.damageTypes.slashing.icon,
 			// reference: "", // TODO
 			color: new Color(0x1E90FF)
 		},
 		kinetic: {
 			label: "SW5E.DamageKinetic",
-			icon: "systems/dnd5e/icons/svg/damage/bludgeoning.svg",
+			icon: config.damageTypes.bludgeoning.icon,
 			// reference: "", // TODO
 			color: new Color(0x8B0000)
 		}
 	};
+	if (strict) {
+		delete config.damageTypes.bludgeoning;
+		delete config.damageTypes.slashing;
+		delete config.damageTypes.piercing;
+		delete config.damageTypes.radiant;
+	}
 	// Powercasting
 	config.spellPreparationModes.powerCasting = {
 		label: "SW5E.Powercasting.Label",
@@ -1683,7 +1692,7 @@ export function patchConfig(config, strict = true) {
 	config.powerCasting = {
 		force: {
 			label: "SW5E.Powercasting.Force.Label",
-			img: "systems/dnd5e/icons/power-tiers/{id}.webp",
+			img: config.spellcasting.spell.img,
 			attr: ["wis", "cha"],
 			focus: {
 				label: "SW5E.Powercasting.Force.Focus",
@@ -1744,7 +1753,7 @@ export function patchConfig(config, strict = true) {
 		},
 		tech: {
 			label: "SW5E.Powercasting.Tech.Label",
-			img: "systems/sw5e/icons/power-tiers/{id}.webp",
+			img: config.spellcasting.spell.img,
 			attr: ["int"],
 			focus: {
 				label: "SW5E.Powercasting.Tech.Focus",
@@ -1810,7 +1819,7 @@ export function patchConfig(config, strict = true) {
 	// Superiority
 	config.superiority = {
 		label: "SW5E.Superiority.Label",
-		img: "systems/dnd5e/icons/power-tiers/{id}.webp",
+		img: config.spellcasting.spell.img,
 		// focus: {
 		// 	label: "SW5E.Superiority.Focus",
 		// 	id: "superiorityfocus",
