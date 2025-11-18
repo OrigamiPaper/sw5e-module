@@ -1662,8 +1662,7 @@ export function patchConfig(config, strict = true) {
 		},
 		ion: {
 			label: "SW5E.DamageIon",
-			// TODO: possibly use custom svg
-			icon: config.damageTypes.slashing.icon,
+			icon: "modules/sw5e/icons/svg/damage/ion.svg",
 			// reference: "", // TODO
 			color: new Color(0x1E90FF)
 		},
