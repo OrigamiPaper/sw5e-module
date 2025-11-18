@@ -248,6 +248,7 @@
 		}
 	},
 	"SW5E.FreeLearn": "Free Learn",
+	"DND5E.ITEM.Property.Magical": "Enhanced",
 	"SW5E.Item": {
 		"Property": {
 			"Auto": "Auto",
