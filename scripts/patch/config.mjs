@@ -463,6 +463,19 @@ export function patchConfig(config, strict = true) {
 		valahorn: "Compendium.sw5e.musicalinstruments.Item.sNnvwOZrUp5xJuHe",
 		xantha: "Compendium.sw5e.musicalinstruments.Item.WVSGXxzBoTUoPvi9",
 	};
+	for (const id in config.toolIds) {
+		let toolAbility = "int";
+		const uuid = config.toolIds[id];
+
+		if (uuid.includes(".gamingsets.") || uuid.includes(".musicalinstruments.")) {
+			toolAbility = "cha";
+		}
+
+		config.tools[id] = {
+			ability: toolAbility,
+			id: uuid
+		}
+	}
 	// Ability Consumption
 	config.abilityConsumptionTypes.powerDice = "SW5E.PowerDice";
 	config.abilityConsumptionTypes.shieldDice = "SW5E.ShieldDice";
