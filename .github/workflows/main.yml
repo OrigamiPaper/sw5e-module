@@ -70,7 +70,7 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
 
       # Extract version embedded in the tag.
@@ -105,7 +105,7 @@ jobs:
 
       # Set up Node
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: '18.x'
           cache: 'npm'
