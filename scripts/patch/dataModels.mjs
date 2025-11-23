@@ -134,6 +134,21 @@ function changeProficiency(result, type) {
 	}
 }
 
+/**
+ * Add the 'slow' attribute as a root-level field
+ * @param {object} result The schema object (fields map) being built for the CreatureTemplate.
+ */
+function addSlow(result) {
+	result.slow = new NumberField({
+		nullable: false,
+		integer: true,
+		min: 0,
+		initial: 0,
+		max: 4, 
+		label: "SW5E.ConSlowed"
+	});
+}
+
 export function patchDataModels() {
 	// Powercasting
 	libWrapper.register('sw5e', 'dnd5e.dataModels.item.ClassData.defineSchema', addProgression, 'WRAPPER');
@@ -142,6 +157,7 @@ export function patchDataModels() {
 		const result = wrapped(...args);
 		addPowercasting(result);
 		addSuperiority(result);
+		addSlow(result);
 		changeProficiency(result, "creature");
 		return result;
 	}, 'WRAPPER');
