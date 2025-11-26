@@ -53,7 +53,39 @@
       "revision": 1,
       "rules": "2024"
     },
-    "activities": {},
+    "activities": {
+      "sw5e0attack00000": {
+        "_id": "sw5e0attack00000",
+        "activation": {
+          "type": "action"
+        },
+        "attack": {
+          "ability": "",
+          "bonus": "",
+          "flat": false,
+          "type": {
+            "classification": "weapon",
+            "value": "ranged"
+          }
+        },
+        "damage": {
+          "critical": {},
+          "parts": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst"
+        },
+        "img": null,
+        "range": {
+          "override": false,
+          "units": "ft",
+          "value": "90"
+        },
+        "target": {},
+        "type": "attack"
+      }
+    },
     "properties": [
       "powerCell",
       "auto",

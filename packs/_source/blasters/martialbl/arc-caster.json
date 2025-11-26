@@ -207,13 +207,7 @@
           "units": "ft",
           "value": "60"
         },
-        "target": {
-          "template": {
-            "size": "1",
-            "type": "enemy",
-            "units": ""
-          }
-        },
+        "target": {},
         "type": "attack"
       },
       "sw5e1save0000000": {
@@ -222,7 +216,16 @@
           "type": "action"
         },
         "damage": {
-          "parts": []
+          "parts": [
+            {
+              "number": 2,
+              "denomination": 4,
+              "bonus": "@mod",
+              "types": [
+                "lightning"
+              ]
+            }
+          ]
         },
         "description": {},
         "duration": {
@@ -238,14 +241,14 @@
         "save": {
           "ability": "dex",
           "dc": {
-            "calculation": "spellcasting",
+            "calculation": "dex",
             "formula": ""
           }
         },
         "target": {
           "template": {
-            "size": "1",
-            "type": "enemy",
+            "size": "10",
+            "type": "cube",
             "units": ""
           }
         },
@@ -257,7 +260,16 @@
           "type": "action"
         },
         "damage": {
-          "parts": []
+          "parts": [
+            {
+              "number": 2,
+              "denomination": 4,
+              "bonus": "@mod",
+              "types": [
+                "lightning"
+              ]
+            }
+          ]
         },
         "description": {},
         "duration": {
@@ -273,17 +285,11 @@
         "save": {
           "ability": "dex",
           "dc": {
-            "calculation": "spellcasting",
+            "calculation": "dex",
             "formula": ""
           }
         },
-        "target": {
-          "template": {
-            "size": "1",
-            "type": "enemy",
-            "units": ""
-          }
-        },
+        "target": {},
         "type": "save"
       }
     }
