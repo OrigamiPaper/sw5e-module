@@ -62,7 +62,16 @@
           "type": "action"
         },
         "damage": {
-          "parts": []
+          "parts": [
+            {
+              "number": 3,
+              "denomination": 4,
+              "bonus": "@mod",
+              "types": [
+                "energy"
+              ]
+            }
+          ]
         },
         "description": {},
         "duration": {
@@ -78,14 +87,14 @@
         "save": {
           "ability": "dex",
           "dc": {
-            "calculation": "spellcasting",
+            "calculation": "dex",
             "formula": ""
           }
         },
         "target": {
           "template": {
-            "size": "1",
-            "type": "enemy",
+            "size": "10",
+            "type": "cube",
             "units": ""
           }
         },

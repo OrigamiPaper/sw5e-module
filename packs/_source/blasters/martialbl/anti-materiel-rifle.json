@@ -204,13 +204,7 @@
           "units": "ft",
           "value": "180"
         },
-        "target": {
-          "template": {
-            "size": "1",
-            "type": "enemy",
-            "units": ""
-          }
-        },
+        "target": {},
         "type": "attack"
       }
     }

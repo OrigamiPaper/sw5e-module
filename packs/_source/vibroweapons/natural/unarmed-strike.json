@@ -184,13 +184,7 @@
           "override": false,
           "units": "ft"
         },
-        "target": {
-          "template": {
-            "size": "1",
-            "type": "enemy",
-            "units": ""
-          }
-        },
+        "target": {},
         "type": "attack"
       }
     }

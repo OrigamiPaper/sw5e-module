@@ -15,11 +15,23 @@ If you wish to manually install the system, you must clone or extract it into th
 
 ## Changelog
 
-### [1.2.7] - 2025-11-13
+### [1.2.8] - 2025-11-26
 
 ### Fixed
 
+- Weapon Templates on Attacks.
+
+### [1.2.7] - 2025-11-21
+
+### Added
+
+- Unify art style for images of conditions.
+
+### Fixed
+
+- Tool Proficiencies on Character Sheet.
 - Enhanced property on Weapons and Equipment.
+- Image rendering of icon for damage type of energy, ion, kinetic, etc.
 
 ### [1.2.6] - 2025-10-31
 
@@ -32,7 +44,6 @@ If you wish to manually install the system, you must clone or extract it into th
 - Powercasting Bars on Character Sheet.
 - Classes now have additional labels within their details to specify Powercasting and Maneuver progression.
 - Equipments and Weapons now have specific configuration labels for their special Properties.
-- Replace missing svg files using dnd5e equivalents (e.g. fixes image rendering of icon for damage type of energy, ion, kinetic, etc.).
 
 ### [1.2.5] - 2025-03-03
 
