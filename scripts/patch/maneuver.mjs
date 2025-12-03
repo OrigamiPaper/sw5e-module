@@ -137,6 +137,7 @@ function makeProgOption(config) {
 }
 
 function showPowercastingStats() {
+	/*
 	const { simplifyBonus } = dnd5e.utils;
 	Hooks.on('sw5e.ActorSheet5eCharacter.getData', function (_this, context, config, ...args) {
 		const msak = simplifyBonus(_this.actor.system.bonuses.msak.attack, context.rollData);
@@ -157,6 +158,7 @@ function showPowercastingStats() {
 			});
 		}
 	});
+	*/
 }
 
 function patchItemSheet() {
@@ -210,6 +212,7 @@ function patchPowerAbilityScore() {
 }
 
 function patchPowerbooks() {
+	/*
 	Hooks.on('sw5e.ActorSheet5e._prepareSpellbook', function (_this, powerbook, config, ...args) {
 		const [context, spells] = args;
 
@@ -262,6 +265,7 @@ function patchPowerbooks() {
 		// Sort the powerbook by section level
 		config.result = powerbook.sort((a, b) => a.order - b.order);
 	});
+	*/
 }
 
 function recoverSuperiorityDice() {
