@@ -15,11 +15,12 @@ If you wish to manually install the system, you must clone or extract it into th
 
 ## Changelog
 
-### [1.2.8] - 2025-11-26
+### [1.2.8] - 2025-12-03
 
 ### Fixed
 
 - Weapon Templates on Attacks.
+- DnD5e 5.2 Conflict/Incompatibility.
 
 ### [1.2.7] - 2025-11-21
 
