@@ -171,6 +171,8 @@
 	"SW5E.ConIgnited": "Ignited",
 	"SW5E.ConShocked": "Shocked",
 	"SW5E.ConSlowed": "Slowed",
+	"SW5E.Slowed": "Slowed",
+	"SW5E.SlowedLevel": "Slowed Level {n}",
 	"SW5E.ConWeakened": "Weakened",
 	"SW5E.ConsumableAmmoCartridge": "Cartridge",
 	"SW5E.ConsumableAmmoDart": "Dart",
