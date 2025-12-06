@@ -135,7 +135,7 @@ function changeProficiency(result, type) {
 }
 
 /**
- * Add the 'slow' attribute as a root-level field
+ * Add the 'slowed' attribute as a root-level field
  * @param {object} result The schema object (fields map) being built for the CreatureTemplate.
  */
 function addSlowed(result) {
