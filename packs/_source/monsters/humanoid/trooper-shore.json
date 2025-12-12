@@ -1469,7 +1469,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/041_-_Trooper_2C_Shore/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/041_-_Trooper_2C_Shore/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

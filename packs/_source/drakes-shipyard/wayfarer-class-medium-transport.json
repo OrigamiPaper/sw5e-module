@@ -7960,7 +7960,7 @@
     "randomImg": false,
     "name": "Wayfarer-class Medium Transport",
     "texture": {
-      "src": "systems/sw5e/packs/Icons/Starship/wayfarer_class_medium_transport.Token.webp?1661173515799",
+      "src": "systems/sw5e/icons/packs/Starship/wayfarer_class_medium_transport.Token.webp?1661173515799",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

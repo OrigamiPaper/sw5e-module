@@ -4199,7 +4199,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/280_-_The_Bendu/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/280_-_The_Bendu/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

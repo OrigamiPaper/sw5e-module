@@ -2938,7 +2938,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/009_-_Starweird/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/009_-_Starweird/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

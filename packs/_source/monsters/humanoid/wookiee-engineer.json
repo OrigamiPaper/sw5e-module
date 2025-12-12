@@ -2333,7 +2333,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/238_-_Wookiee_Engineer/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/238_-_Wookiee_Engineer/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

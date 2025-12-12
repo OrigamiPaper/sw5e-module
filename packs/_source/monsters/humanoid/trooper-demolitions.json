@@ -1375,7 +1375,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/038_-_Trooper_2C_Demolitions/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/038_-_Trooper_2C_Demolitions/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

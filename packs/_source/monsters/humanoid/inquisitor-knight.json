@@ -2996,7 +2996,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/215_-_Inquisitor_2C_Knight/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/215_-_Inquisitor_2C_Knight/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

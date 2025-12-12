@@ -2186,7 +2186,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/432_-_Baron_Adminstrator/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/432_-_Baron_Adminstrator/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

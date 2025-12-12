@@ -1323,7 +1323,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/096_-_Narglatch/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/096_-_Narglatch/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

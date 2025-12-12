@@ -1029,7 +1029,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/184_-_LOM_Series/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/184_-_LOM_Series/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

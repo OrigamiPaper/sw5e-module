@@ -1256,7 +1256,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/026_-_Brain_Worm/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/026_-_Brain_Worm/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

@@ -3481,7 +3481,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/264_-_Dark_Lord_Spirit/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/264_-_Dark_Lord_Spirit/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

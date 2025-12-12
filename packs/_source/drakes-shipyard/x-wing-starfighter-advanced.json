@@ -9005,7 +9005,7 @@
     "randomImg": false,
     "name": "X-Wing Starfighter - Advanced",
     "texture": {
-      "src": "systems/sw5e/packs/Icons/Starship/x_wing_starfighter_advanced.Token.webp?1661173953079",
+      "src": "systems/sw5e/icons/packs/Starship/x_wing_starfighter_advanced.Token.webp?1661173953079",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

@@ -1279,7 +1279,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/140_-_Wyyyschokk/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/140_-_Wyyyschokk/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

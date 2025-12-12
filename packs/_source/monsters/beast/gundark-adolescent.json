@@ -1131,7 +1131,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/068_-_Gundark_2C_Adolescent/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/068_-_Gundark_2C_Adolescent/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

@@ -2541,7 +2541,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/423_-_Anzellan_Droidsmith/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/423_-_Anzellan_Droidsmith/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

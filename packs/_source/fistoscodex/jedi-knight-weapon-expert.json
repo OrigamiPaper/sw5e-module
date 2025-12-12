@@ -3765,7 +3765,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/333_-_Jedi_Knight_2C_Weapon_Expert/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/333_-_Jedi_Knight_2C_Weapon_Expert/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

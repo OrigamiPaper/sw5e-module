@@ -1063,7 +1063,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/005_-_Flesh_Raider_Berserker/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/005_-_Flesh_Raider_Berserker/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

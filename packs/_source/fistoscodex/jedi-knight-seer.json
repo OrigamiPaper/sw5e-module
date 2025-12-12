@@ -2784,7 +2784,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/327_-_Jedi_Knight_Seer/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/327_-_Jedi_Knight_Seer/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

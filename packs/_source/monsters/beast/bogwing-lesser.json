@@ -1020,7 +1020,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/024_-_Bogwing_2C_Lesser/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/024_-_Bogwing_2C_Lesser/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

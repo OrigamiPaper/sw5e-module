@@ -4691,7 +4691,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/395_-_Sith_Blade_Dancer/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/395_-_Sith_Blade_Dancer/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

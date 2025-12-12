@@ -5691,7 +5691,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/387_-_Nightsister_Shaman/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/387_-_Nightsister_Shaman/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

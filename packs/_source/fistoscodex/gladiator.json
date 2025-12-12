@@ -1392,7 +1392,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/436_-_Gladiator/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/436_-_Gladiator/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

@@ -1284,7 +1284,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/235_-_Tusken_Chieftain/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/235_-_Tusken_Chieftain/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

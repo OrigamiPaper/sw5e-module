@@ -8099,7 +8099,7 @@
     "randomImg": false,
     "name": "YV-929 Armed Freighter",
     "texture": {
-      "src": "systems/sw5e/packs/Icons/Starship/yv_929_armed_freighter.Token.webp?1661174004790",
+      "src": "systems/sw5e/icons/packs/Starship/yv_929_armed_freighter.Token.webp?1661174004790",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

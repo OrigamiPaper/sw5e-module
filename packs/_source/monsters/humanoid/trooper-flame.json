@@ -1192,7 +1192,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/042_-_Trooper_2C_Flame/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/042_-_Trooper_2C_Flame/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

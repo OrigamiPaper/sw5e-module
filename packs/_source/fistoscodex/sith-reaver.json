@@ -3738,7 +3738,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/406_-_Sith_Reaver/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/406_-_Sith_Reaver/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

@@ -2108,7 +2108,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/144_-_AAT/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/144_-_AAT/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

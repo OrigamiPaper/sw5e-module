@@ -3640,7 +3640,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/205_-_Hutt_Crime_Lord/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/205_-_Hutt_Crime_Lord/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

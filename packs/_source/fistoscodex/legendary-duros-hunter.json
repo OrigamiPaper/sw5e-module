@@ -5052,7 +5052,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/275_-_Legendary_Duros_Hunter/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/275_-_Legendary_Duros_Hunter/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

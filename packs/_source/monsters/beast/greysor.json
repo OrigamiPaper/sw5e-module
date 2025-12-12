@@ -1020,7 +1020,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/067_-_Greysor/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/067_-_Greysor/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

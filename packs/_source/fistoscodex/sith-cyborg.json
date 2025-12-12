@@ -6227,7 +6227,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/391_-_Sith_Cyborg/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/391_-_Sith_Cyborg/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

@@ -1140,7 +1140,7 @@
     "flags": {},
     "randomImg": false,
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/261_-_Uprising/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/261_-_Uprising/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

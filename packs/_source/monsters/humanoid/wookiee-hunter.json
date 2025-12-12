@@ -1892,7 +1892,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/239_-_Wookiee_Hunter/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/239_-_Wookiee_Hunter/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

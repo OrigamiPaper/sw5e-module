@@ -1804,7 +1804,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/352_-_Killik_Rekker/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/352_-_Killik_Rekker/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

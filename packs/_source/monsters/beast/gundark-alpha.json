@@ -1390,7 +1390,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/070_-_Gundark_2C_Alpha/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/070_-_Gundark_2C_Alpha/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

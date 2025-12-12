@@ -1152,7 +1152,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/001_-_1.4_FD_P-Tower_Turret/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/001_-_1.4_FD_P-Tower_Turret/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

@@ -5746,7 +5746,7 @@
     "randomImg": false,
     "name": "Z-95 Headhunter",
     "texture": {
-      "src": "systems/sw5e/packs/Icons/Starship/z_95_headhunter.Token.webp?1661166906027",
+      "src": "systems/sw5e/icons/packs/Starship/z_95_headhunter.Token.webp?1661166906027",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

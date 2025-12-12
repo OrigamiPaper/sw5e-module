@@ -1480,7 +1480,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/146_-_AT-RT/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/146_-_AT-RT/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

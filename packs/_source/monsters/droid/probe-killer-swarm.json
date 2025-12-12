@@ -917,7 +917,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/257_-_Probe_Killer_Swarm/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/257_-_Probe_Killer_Swarm/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

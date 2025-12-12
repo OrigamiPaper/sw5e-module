@@ -2767,7 +2767,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/266_-_Manifestation_of_Abeloth/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/266_-_Manifestation_of_Abeloth/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

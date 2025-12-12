@@ -4090,7 +4090,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/190_-_Super_Tactical_Droid/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/190_-_Super_Tactical_Droid/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

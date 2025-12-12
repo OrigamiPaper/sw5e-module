@@ -4653,7 +4653,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/332_-_Jedi_Knight_2C_Focused_Adept/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/332_-_Jedi_Knight_2C_Focused_Adept/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

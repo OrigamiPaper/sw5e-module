@@ -4102,7 +4102,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/274_-_Exchange_Gunslinger/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/274_-_Exchange_Gunslinger/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

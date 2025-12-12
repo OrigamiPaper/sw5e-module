@@ -1546,7 +1546,7 @@
     "flags": {},
     "randomImg": false,
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/011_-_Tuk_27ata/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/011_-_Tuk_27ata/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

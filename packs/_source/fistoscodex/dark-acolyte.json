@@ -2170,7 +2170,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/390_-_Dark_Acolyte/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/390_-_Dark_Acolyte/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

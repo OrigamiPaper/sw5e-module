@@ -1833,7 +1833,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/308_-_Trooper_2C_Sapper/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/308_-_Trooper_2C_Sapper/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

@@ -3418,7 +3418,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/214_-_Inquisitor_2C_Grand/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/214_-_Inquisitor_2C_Grand/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

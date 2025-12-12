@@ -10816,7 +10816,7 @@
     "randomImg": false,
     "name": "K-wing - BTL-S8",
     "texture": {
-      "src": "systems/sw5e/packs/Icons/Starship/k_wing_btl_s8.Token.webp?1661170259443",
+      "src": "systems/sw5e/icons/packs/Starship/k_wing_btl_s8.Token.webp?1661170259443",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

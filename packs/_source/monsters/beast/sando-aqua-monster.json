@@ -2452,7 +2452,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/113_-_Sando_Aqua_Monster/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/113_-_Sando_Aqua_Monster/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

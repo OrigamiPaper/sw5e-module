@@ -5620,7 +5620,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/364_-_Mandalorian_Explosives_Artiste/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/364_-_Mandalorian_Explosives_Artiste/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

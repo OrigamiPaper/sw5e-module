@@ -2224,7 +2224,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/000_-_000_Series_Protocol_Droid/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/000_-_000_Series_Protocol_Droid/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

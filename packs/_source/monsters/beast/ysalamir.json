@@ -909,7 +909,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/141_-_Ysalamir/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/141_-_Ysalamir/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

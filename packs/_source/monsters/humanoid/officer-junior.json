@@ -1605,7 +1605,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/227_-_Officer_2C_Junior/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/227_-_Officer_2C_Junior/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

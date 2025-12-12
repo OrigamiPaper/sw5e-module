@@ -9764,7 +9764,7 @@
     "randomImg": false,
     "name": "TIE/D Defender",
     "texture": {
-      "src": "systems/sw5e/packs/Icons/Starship/tie_d_defender.Token.webp?1661173115015",
+      "src": "systems/sw5e/icons/packs/Starship/tie_d_defender.Token.webp?1661173115015",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

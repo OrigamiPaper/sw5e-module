@@ -1467,7 +1467,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/221_-_Kolkpravis_Blackarm/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/221_-_Kolkpravis_Blackarm/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

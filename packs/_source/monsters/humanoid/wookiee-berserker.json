@@ -1195,7 +1195,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/packs/Icons/monsters/237_-_Wookiee_Berserker/Token.webp",
+      "src": "systems/sw5e/icons/packs/monsters/237_-_Wookiee_Berserker/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,
