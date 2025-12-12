@@ -2435,7 +2435,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/icons/packs/monsters/315_-_Imperial_Knight_Squire/sides/*.webp",
+      "src": "modules/sw5e/icons/packs/monsters/315_-_Imperial_Knight_Squire/sides/*.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

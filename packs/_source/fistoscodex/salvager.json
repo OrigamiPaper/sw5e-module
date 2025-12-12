@@ -2462,7 +2462,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/icons/packs/monsters/427_-_Salvager/Token.webp",
+      "src": "modules/sw5e/icons/packs/monsters/427_-_Salvager/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

@@ -5540,7 +5540,7 @@
     "randomImg": false,
     "name": "V-wing Starfighter - Alpha-3 Nimbus-class",
     "texture": {
-      "src": "systems/sw5e/icons/packs/Starship/v_wing_starfighter_alpha_3_nimbus_class.Token.webp?1661173389090",
+      "src": "modules/sw5e/icons/packs/Starship/v_wing_starfighter_alpha_3_nimbus_class.Token.webp?1661173389090",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

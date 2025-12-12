@@ -7893,7 +7893,7 @@
     "randomImg": false,
     "name": "TIE/HU Hunter Multi-role Starfighter",
     "texture": {
-      "src": "systems/sw5e/icons/packs/Starship/tie_hu_hunter_multi_role_starfighter.Token.webp?1661173141205",
+      "src": "modules/sw5e/icons/packs/Starship/tie_hu_hunter_multi_role_starfighter.Token.webp?1661173141205",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

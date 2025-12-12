@@ -3028,7 +3028,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/icons/packs/monsters/346_-_Jensaarai_Defender/Token.webp",
+      "src": "modules/sw5e/icons/packs/monsters/346_-_Jensaarai_Defender/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

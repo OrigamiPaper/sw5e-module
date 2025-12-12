@@ -1397,7 +1397,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/icons/packs/monsters/439_-_Spy/Token.webp",
+      "src": "modules/sw5e/icons/packs/monsters/439_-_Spy/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

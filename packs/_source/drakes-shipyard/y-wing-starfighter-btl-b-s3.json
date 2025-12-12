@@ -8117,7 +8117,7 @@
     "randomImg": false,
     "name": "Y-Wing Starfighter - BTL-B/S3",
     "texture": {
-      "src": "systems/sw5e/icons/packs/Starship/y_wing_starfighter_btl_b_s3.Token.webp?1661173634297",
+      "src": "modules/sw5e/icons/packs/Starship/y_wing_starfighter_btl_b_s3.Token.webp?1661173634297",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

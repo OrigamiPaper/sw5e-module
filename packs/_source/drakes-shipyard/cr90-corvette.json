@@ -9562,7 +9562,7 @@
     "flags": {},
     "randomImg": false,
     "texture": {
-      "src": "systems/sw5e/icons/packs/Starship/cr90_corvette.Token.webp?1660052625792",
+      "src": "modules/sw5e/icons/packs/Starship/cr90_corvette.Token.webp?1660052625792",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

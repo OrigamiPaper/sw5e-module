@@ -4329,7 +4329,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/icons/packs/monsters/408_-_Sith_Sorcerer/Token.webp",
+      "src": "modules/sw5e/icons/packs/monsters/408_-_Sith_Sorcerer/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

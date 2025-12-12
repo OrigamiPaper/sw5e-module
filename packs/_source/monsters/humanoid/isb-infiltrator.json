@@ -2208,7 +2208,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/icons/packs/monsters/207_-_ISB_Infiltrator/Token.webp",
+      "src": "modules/sw5e/icons/packs/monsters/207_-_ISB_Infiltrator/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

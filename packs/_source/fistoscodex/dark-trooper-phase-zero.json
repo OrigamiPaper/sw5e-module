@@ -1893,7 +1893,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/icons/packs/monsters/298_-_Dark_Trooper_2C_Phase_Zero/Token.webp",
+      "src": "modules/sw5e/icons/packs/monsters/298_-_Dark_Trooper_2C_Phase_Zero/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

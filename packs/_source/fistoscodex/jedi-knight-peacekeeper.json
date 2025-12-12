@@ -3484,7 +3484,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/icons/packs/monsters/326_-_Jedi_Knight_Peacekeeper/Token.webp",
+      "src": "modules/sw5e/icons/packs/monsters/326_-_Jedi_Knight_Peacekeeper/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

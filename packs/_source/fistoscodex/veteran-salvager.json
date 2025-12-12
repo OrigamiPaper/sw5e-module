@@ -2796,7 +2796,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/icons/packs/monsters/428_-_Veteran_Salvager/Token.webp",
+      "src": "modules/sw5e/icons/packs/monsters/428_-_Veteran_Salvager/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

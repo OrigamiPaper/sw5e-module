@@ -5617,7 +5617,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/icons/packs/monsters/393_-_Sith_Duelist/Token.webp",
+      "src": "modules/sw5e/icons/packs/monsters/393_-_Sith_Duelist/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

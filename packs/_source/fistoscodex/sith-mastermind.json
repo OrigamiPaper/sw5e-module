@@ -5959,7 +5959,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/icons/packs/monsters/394_-_Sith_Mastermind/Token.webp",
+      "src": "modules/sw5e/icons/packs/monsters/394_-_Sith_Mastermind/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

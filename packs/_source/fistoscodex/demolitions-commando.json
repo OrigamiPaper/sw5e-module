@@ -2463,7 +2463,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/icons/packs/monsters/286_-_Demolitions_Commando/Token.webp",
+      "src": "modules/sw5e/icons/packs/monsters/286_-_Demolitions_Commando/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

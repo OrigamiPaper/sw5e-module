@@ -8658,7 +8658,7 @@
     "randomImg": false,
     "name": "YT-1300, Modified",
     "texture": {
-      "src": "systems/sw5e/icons/packs/Starship/yt_1300_modified.Token.webp?1661173989544",
+      "src": "modules/sw5e/icons/packs/Starship/yt_1300_modified.Token.webp?1661173989544",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

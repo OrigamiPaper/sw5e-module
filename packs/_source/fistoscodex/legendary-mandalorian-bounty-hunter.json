@@ -3163,7 +3163,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/icons/packs/monsters/278_-_Legendary_Mandalorian_Bounty_Hunter/Token.webp",
+      "src": "modules/sw5e/icons/packs/monsters/278_-_Legendary_Mandalorian_Bounty_Hunter/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

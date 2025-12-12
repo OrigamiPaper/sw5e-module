@@ -3830,7 +3830,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/icons/packs/monsters/331_-_Jedi_Knight_2C_Combat_Healer/Avatar.webp",
+      "src": "modules/sw5e/icons/packs/monsters/331_-_Jedi_Knight_2C_Combat_Healer/Avatar.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

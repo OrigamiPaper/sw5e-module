@@ -952,7 +952,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/icons/packs/monsters/313_-_Geonosian_Warrior/Token.webp",
+      "src": "modules/sw5e/icons/packs/monsters/313_-_Geonosian_Warrior/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

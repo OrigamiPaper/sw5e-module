@@ -5428,7 +5428,7 @@
     "randomImg": false,
     "name": "Z-'ceptor",
     "texture": {
-      "src": "systems/sw5e/icons/packs/Starship/z_ceptor.Token.webp?1661174021281",
+      "src": "modules/sw5e/icons/packs/Starship/z_ceptor.Token.webp?1661174021281",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

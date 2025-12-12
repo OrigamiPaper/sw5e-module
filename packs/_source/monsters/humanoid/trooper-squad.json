@@ -1495,7 +1495,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/icons/packs/monsters/049_-_Trooper_2C_Squad/Token.webp",
+      "src": "modules/sw5e/icons/packs/monsters/049_-_Trooper_2C_Squad/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

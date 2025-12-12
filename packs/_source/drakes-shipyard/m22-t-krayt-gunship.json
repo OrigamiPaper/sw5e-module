@@ -10058,7 +10058,7 @@
     "randomImg": false,
     "name": "M22-T Krayt Gunship",
     "texture": {
-      "src": "systems/sw5e/icons/packs/Starship/m22_t_krayt_gunship.Token.webp?1661170373375",
+      "src": "modules/sw5e/icons/packs/Starship/m22_t_krayt_gunship.Token.webp?1661170373375",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

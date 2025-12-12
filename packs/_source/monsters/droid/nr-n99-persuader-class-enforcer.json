@@ -1569,7 +1569,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/icons/packs/monsters/187_-_NR-N99_Persuader-Class_Enforcer/Token.webp",
+      "src": "modules/sw5e/icons/packs/monsters/187_-_NR-N99_Persuader-Class_Enforcer/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

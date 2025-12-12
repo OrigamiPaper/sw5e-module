@@ -3442,7 +3442,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/icons/packs/monsters/283_-_The_Son_2C_Avatar_of_Power/sides/*.webp",
+      "src": "modules/sw5e/icons/packs/monsters/283_-_The_Son_2C_Avatar_of_Power/sides/*.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

@@ -7701,7 +7701,7 @@
     "flags": {},
     "randomImg": false,
     "texture": {
-      "src": "systems/sw5e/icons/packs/Starship/vcx_100_light_freighter.Token.webp?1660057293466",
+      "src": "modules/sw5e/icons/packs/Starship/vcx_100_light_freighter.Token.webp?1660057293466",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

@@ -1143,7 +1143,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/icons/packs/monsters/217_-_Jawa_Scrapper/Token.webp",
+      "src": "modules/sw5e/icons/packs/monsters/217_-_Jawa_Scrapper/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

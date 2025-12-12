@@ -3551,7 +3551,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/icons/packs/monsters/368_-_Combat_Engineer/Token.webp",
+      "src": "modules/sw5e/icons/packs/monsters/368_-_Combat_Engineer/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

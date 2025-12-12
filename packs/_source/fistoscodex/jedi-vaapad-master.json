@@ -4869,7 +4869,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/icons/packs/monsters/341_-_Jedi_Vaapad_Master/Token.webp",
+      "src": "modules/sw5e/icons/packs/monsters/341_-_Jedi_Vaapad_Master/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

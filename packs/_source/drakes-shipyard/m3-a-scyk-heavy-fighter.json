@@ -5960,7 +5960,7 @@
     "randomImg": false,
     "name": "M3-A Scyk \"Heavy\" Fighter",
     "texture": {
-      "src": "systems/sw5e/icons/packs/Starship/m3_a_scyk_heavy_fighter.Token.webp?1661170404382",
+      "src": "modules/sw5e/icons/packs/Starship/m3_a_scyk_heavy_fighter.Token.webp?1661170404382",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

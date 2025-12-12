@@ -4048,7 +4048,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/icons/packs/monsters/284_-_The_Daughter_2C_Avatar_of_Knowledge/sides/*.webp",
+      "src": "modules/sw5e/icons/packs/monsters/284_-_The_Daughter_2C_Avatar_of_Knowledge/sides/*.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

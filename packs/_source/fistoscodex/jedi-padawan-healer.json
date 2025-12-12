@@ -4311,7 +4311,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/icons/packs/monsters/324_-_Jedi_Padawan_Healer/Token.webp",
+      "src": "modules/sw5e/icons/packs/monsters/324_-_Jedi_Padawan_Healer/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

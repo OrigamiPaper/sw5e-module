@@ -3152,7 +3152,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/icons/packs/monsters/316_-_Imperial_Knight/sides/*.webp",
+      "src": "modules/sw5e/icons/packs/monsters/316_-_Imperial_Knight/sides/*.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

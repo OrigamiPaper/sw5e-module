@@ -1094,7 +1094,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/icons/packs/monsters/097_-_Nerf/Token.webp",
+      "src": "modules/sw5e/icons/packs/monsters/097_-_Nerf/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

@@ -2049,7 +2049,7 @@
       "priority": 0
     },
     "texture": {
-      "src": "systems/sw5e/icons/packs/monsters/248_-_Cantina_Brawl/Token.webp",
+      "src": "modules/sw5e/icons/packs/monsters/248_-_Cantina_Brawl/Token.webp",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,

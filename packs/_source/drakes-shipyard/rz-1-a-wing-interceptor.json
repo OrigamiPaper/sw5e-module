@@ -7671,7 +7671,7 @@
     "flags": {},
     "randomImg": false,
     "texture": {
-      "src": "systems/sw5e/icons/packs/Starship/rz_1_a_wing_interceptor.Token.webp?1660046416374",
+      "src": "modules/sw5e/icons/packs/Starship/rz_1_a_wing_interceptor.Token.webp?1660046416374",
       "scaleX": 1,
       "scaleY": 1,
       "offsetX": 0,

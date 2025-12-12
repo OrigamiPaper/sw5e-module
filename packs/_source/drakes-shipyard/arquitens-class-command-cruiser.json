@@ -12921,7 +12921,7 @@
     "flags": {},
     "randomImg": false,
     "texture": {
-      "src": "systems/sw5e/icons/packs/Starship/arquitens_class_command_cruiser.Token.webp?1660030215577",
+      "src": "modules/sw5e/icons/packs/Starship/arquitens_class_command_cruiser.Token.webp?1660030215577",
       "tint": "#ffffff",
       "scaleX": 1,
       "scaleY": 1,
