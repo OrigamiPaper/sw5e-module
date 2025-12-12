@@ -302,6 +302,7 @@ function convertSW5EPackEntry(data, { forceConvert=false }={}) {
 	if ( data.effects ) cleanEffects(data);
 	if ( data.img ) data.img = cleanImage(data.img);
 	if ( data.icon ) data.icon = cleanImage(data.icon);
+	if ( data.texture ) data.texture = cleanImage(data.texture);
 
 	return true;
 }
