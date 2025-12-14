@@ -180,7 +180,117 @@ function makeProgOption(config) {
 }
 
 function showPowercastingStats() {
-	/*
+	Hooks.on("renderBaseActorSheet", function (app, html, context, options) {
+		const actorItems = context.actor.toObject().items;
+		const actorAbilities = context.actor.system.abilities;
+		const powercastingCardsSection = html.querySelector(`section.tab[data-tab="spells"] section.top`);
+		const dndSpellcastingCards = powercastingCardsSection.querySelectorAll("div.spellcasting.card:not(.sw5e)");
+		dndSpellcastingCards.forEach(card => card.remove());
+
+		// Powercasting Cards (Name + Ability Used)
+		const forcecastingCards = [
+			{ name: "Forcecasting (Light)", getAbility: () => "wis" },
+			{ name: "Forcecasting (Dark)", getAbility: () => "cha" },
+			{ name: "Forcecasting (Neutral)", getAbility: () => {
+				if (actorAbilities.wis.value > actorAbilities.cha.value) return "wis";
+				else return "cha";
+			}},
+		];
+		const superiorityCards = [
+			{ name: "Superiority (Mental)", getAbility: () => {
+				const mentalAbilities = ["int", "wis", "cha"];
+				const greater = {name: mentalAbilities[0], value: actorAbilities[mentalAbilities[0]].value};
+				for (let i=1; i<mentalAbilities.length; i++) {
+					const ability = mentalAbilities[i];
+					if (actorAbilities[ability].value > greater.value) {
+						greater.name = ability;
+						greater.value = actorAbilities[ability].value;
+					}
+				}
+				return greater.name;
+			}},
+			{ name: "Superiority (Physical)", getAbility: () => {
+				const physicalAbilities = ["str", "dex", "con"];
+				const greater = {name: physicalAbilities[0], value: actorAbilities[physicalAbilities[0]].value};
+				for (let i=1; i<physicalAbilities.length; i++) {
+					const ability = physicalAbilities[i];
+					if (actorAbilities[ability].value > greater.value) {
+						greater.name = ability;
+						greater.value = actorAbilities[ability].value;
+					}
+				}
+				return greater.name;
+			}},
+			{ name: "Superiority (General)", getAbility: () => {
+				const allAbilities = ["str", "dex", "con", "int", "wis", "cha"];
+				const greater = {name: allAbilities[0], value: actorAbilities[allAbilities[0]].value};
+				for (let i=1; i<allAbilities.length; i++) {
+					const ability = allAbilities[i];
+					if (actorAbilities[ability].value > greater.value) {
+						greater.name = ability;
+						greater.value = actorAbilities[ability].value;
+					}
+				}
+				return greater.name;
+			}},
+		];
+		const techcastingCard = { name: "Techcasting", getAbility: () => "int" };
+
+		const actorPowers = actorItems.filter(item => item.type === "spell");
+		const actorClasses = actorItems.filter(item => item.type === "class");
+		const actorManeuvers = actorItems.filter(item => item.type === "sw5e.maneuver");
+
+		// Verification
+		const hasSuperiority = (
+			actorClasses.some(clss => clss.system.identifier === "scholar") || actorManeuvers.length > 0
+		);
+		const hasForcecasting = (
+			actorClasses.some(clss => ["consular", "guardian", "sentinel"].includes(clss.system.identifier))
+			||
+			actorPowers.some(power => ["lgt", "drk", "uni"].includes(power.system.school))
+		);
+		const hasTechcasting = (
+			actorClasses.some(clss => ["engineer", "scout"].includes(clss.system.identifier))
+			||
+			actorPowers.some(power => power.system.school === "tec")
+		);
+
+		// Rendering
+		const powercastingCardsToRenderize = [];
+		if (hasSuperiority) powercastingCardsToRenderize.push(...superiorityCards);
+		if (hasForcecasting) powercastingCardsToRenderize.push(...forcecastingCards);
+		if (hasTechcasting) powercastingCardsToRenderize.push(techcastingCard);
+
+		powercastingCardsToRenderize.forEach(powercasting => {
+			const powercastingCard = document.createElement("div");
+			powercastingCard.classList.add("spellcasting", "card", "sw5e");
+			const ability = powercasting.getAbility();
+			powercastingCard.dataset.ability = ability;
+			const powercastingAttackWithSymbol = actorAbilities[ability].attack >= 0 ? `+${actorAbilities[ability].attack}` : actorAbilities[ability].attack;
+			powercastingCard.innerHTML = `
+				<div class="header">
+					<h3>${powercasting.name}</h3>
+				</div>
+				<div class="info">
+					<div class="ability">
+						<span class="label">Ability</span>
+						<span class="value">${ability.toUpperCase()}</span>
+					</div>
+					<div class="attack">
+						<span class="label">Attack</span>
+						<span class="value">${powercastingAttackWithSymbol}</span>
+					</div>
+					<div class="save">
+						<span class="label">Save</span>
+						<span class="value">${actorAbilities[ability].dc}</span>
+					</div>
+				</div>
+			`;
+			powercastingCardsSection.appendChild(powercastingCard);
+		});
+	});
+
+	/* // Old One:
 	const { simplifyBonus } = dnd5e.utils;
 	Hooks.on('sw5e.ActorSheet5eCharacter.getData', function (_this, context, config, ...args) {
 		const msak = simplifyBonus(_this.actor.system.bonuses.msak.attack, context.rollData);
